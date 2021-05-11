@@ -1,0 +1,36 @@
+﻿
+@model TicketingSystem.Web.Models.Cashier
+
+@{
+    ViewData["Title"] = "CashiersDetails";
+}
+<h2>Datasheet of one cashier</h2>
+
+@Html.ActionLink("Back to the list", "Index");
+
+<table border="1">
+    <tr>
+        <td>@Html.DisplayNameFor(m => m.Id)</td>
+        <td>@Html.DisplayFor(m => m.Id)</td>
+    </tr>
+    <tr>
+        <td>@Html.DisplayNameFor(m => m.Name)</td>
+        <td>@Html.DisplayFor(m => m.Name)</td>
+    </tr>
+    <tr>
+        <td>@Html.DisplayNameFor(m => m.Address)</td>
+        <td>@Html.DisplayFor(m => m.Address)</td>
+    </tr>
+    <tr>
+        <td>@Html.DisplayNameFor(m => m.BankAccount)</td>
+        <td>@Html.DisplayFor(m => m.BankAccount)</td>
+    </tr>
+    <tr>
+        <td>@Html.DisplayNameFor(m => m.Salary)</td>
+        <td>@Html.DisplayFor(m => m.Salary)</td>
+    </tr>
+    <tr>
+        <td>@Html.DisplayNameFor(m => m.Insurance)</td>
+        <td>@Html.DisplayFor(m => m.Insurance)</td>
+    </tr>
+</table>

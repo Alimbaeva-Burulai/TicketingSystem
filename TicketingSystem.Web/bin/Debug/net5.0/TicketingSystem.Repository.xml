@@ -1,0 +1,360 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TicketingSystem.Repository</name>
+    </assembly>
+    <members>
+        <member name="T:TicketingSystem.Repository.CashierRepository">
+            <summary>
+            This class CashierRepository.
+            </summary>
+        </member>
+        <member name="M:TicketingSystem.Repository.CashierRepository.#ctor(Microsoft.EntityFrameworkCore.DbContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:TicketingSystem.Repository.CashierRepository"/> class.
+            Constructor for CashierRepository.
+            </summary>
+            <param name="ctx">The id to join.</param>
+        </member>
+        <member name="M:TicketingSystem.Repository.CashierRepository.Add(TicketingSystem.Data.CodeFirstDB.Cashier)">
+            <inheritdoc/>
+        </member>
+        <member name="M:TicketingSystem.Repository.CashierRepository.GetOne(System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="M:TicketingSystem.Repository.CashierRepository.IncreasingSalary(System.Int32,System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="M:TicketingSystem.Repository.CashierRepository.Modify(System.Int32,TicketingSystem.Data.CodeFirstDB.Cashier)">
+            <inheritdoc/>
+        </member>
+        <member name="M:TicketingSystem.Repository.CashierRepository.ModifyCashier(System.Int32,TicketingSystem.Data.CodeFirstDB.Cashier)">
+            <inheritdoc/>
+        </member>
+        <member name="M:TicketingSystem.Repository.CashierRepository.Remove(System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="M:TicketingSystem.Repository.CashierRepository.RemoveCashier(System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="T:TicketingSystem.Repository.CustomerRepository">
+            <summary>
+            This class CustomerRepository.
+            </summary>
+        </member>
+        <member name="M:TicketingSystem.Repository.CustomerRepository.#ctor(Microsoft.EntityFrameworkCore.DbContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:TicketingSystem.Repository.CustomerRepository"/> class.
+            Constructor for CustomerRepository.
+            </summary>
+            <param name="ctx">The id to join.</param>
+        </member>
+        <member name="M:TicketingSystem.Repository.CustomerRepository.Add(System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="M:TicketingSystem.Repository.CustomerRepository.ChangePriceOfTicket(System.Int32,System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="M:TicketingSystem.Repository.CustomerRepository.GetOne(System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="M:TicketingSystem.Repository.CustomerRepository.Modify(System.Int32,System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="M:TicketingSystem.Repository.CustomerRepository.Remove(System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="T:TicketingSystem.Repository.ICashierRepository">
+            <summary>
+            Documentation that describes the interface goes here.
+            </summary>
+            <remarks>
+            Details about the interface go here.
+            </remarks>
+        </member>
+        <member name="M:TicketingSystem.Repository.ICashierRepository.IncreasingSalary(System.Int32,System.Int32)">
+            <summary>
+            Method for increasing salary.
+            </summary>
+            <param name="id">The entity to join.</param>
+            <param name="newSalary">The id to join.</param>
+        </member>
+        <member name="M:TicketingSystem.Repository.ICashierRepository.Add(TicketingSystem.Data.CodeFirstDB.Cashier)">
+            <summary>
+            Adding name.
+            </summary>
+            <param name="entry">The entity to join.</param>
+        </member>
+        <member name="M:TicketingSystem.Repository.ICashierRepository.RemoveCashier(System.Int32)">
+            <summary>
+            Removing name.
+            </summary>
+            <param name="id">The entity to join.</param>
+            /// <returns>Returns bool.</returns>
+        </member>
+        <member name="M:TicketingSystem.Repository.ICashierRepository.Remove(System.Int32)">
+            <summary>
+            Adding name.
+            </summary>
+            <param name="id">The entity to join.</param>
+        </member>
+        <member name="M:TicketingSystem.Repository.ICashierRepository.Modify(System.Int32,TicketingSystem.Data.CodeFirstDB.Cashier)">
+            <summary>
+            Adding name.
+            </summary>
+            <param name="id">The id.</param>
+            <param name="cashier">The cashier.</param>
+        </member>
+        <member name="M:TicketingSystem.Repository.ICashierRepository.ModifyCashier(System.Int32,TicketingSystem.Data.CodeFirstDB.Cashier)">
+            <summary>
+            Modifying name.
+            </summary>
+            <param name="id">The id to join.</param>
+            <param name="cashier">The salary to join.</param>
+            <returns>Returns bool.</returns>
+        </member>
+        <member name="T:TicketingSystem.Repository.ICustomerRepository">
+            <summary>
+            Documentation that describes the interface goes here.
+            </summary>
+            <remarks>
+            Details about the interface go here.
+            </remarks>
+        </member>
+        <member name="M:TicketingSystem.Repository.ICustomerRepository.ChangePriceOfTicket(System.Int32,System.Int32)">
+            <summary>
+            Method for changing price of ticket.
+            </summary>
+            <param name="id">The entity to join.</param>
+            <param name="newPrice">The id to join.</param>
+        </member>
+        <member name="M:TicketingSystem.Repository.ICustomerRepository.Add(System.String)">
+            <summary>
+            Adding name.
+            </summary>
+            <param name="name">The entity to join.</param>
+            <returns>number.</returns>
+        </member>
+        <member name="M:TicketingSystem.Repository.ICustomerRepository.Remove(System.String)">
+            <summary>
+            Removing name.
+            </summary>
+            <param name="name">The entity to join.</param>
+            <returns>number.</returns>
+        </member>
+        <member name="M:TicketingSystem.Repository.ICustomerRepository.Modify(System.Int32,System.Int32)">
+            <summary>
+            Modify the entities.
+            </summary>
+            <param name="id">The id to join.</param>
+            <param name="priceOfTicket">The price to join.</param>
+        </member>
+        <member name="T:TicketingSystem.Repository.IMovieRepository">
+            <summary>
+            Documentation that describes the interface goes here.
+            </summary>
+            <remarks>
+            Details about the interface go here.
+            </remarks>
+        </member>
+        <member name="M:TicketingSystem.Repository.IMovieRepository.ChangeDate(System.Int32,System.String)">
+            <summary>
+            Method for changing date.
+            </summary>
+            <param name="id">The entity to join.</param>
+            <param name="dateOfWatching">The string to join.</param>
+        </member>
+        <member name="M:TicketingSystem.Repository.IMovieRepository.Add(System.String)">
+            <summary>
+            Adding name.
+            </summary>
+            <param name="name">The entity to join.</param>
+            <returns>number.</returns>
+        </member>
+        <member name="M:TicketingSystem.Repository.IMovieRepository.Remove(System.String)">
+            <summary>
+            Removing name.
+            </summary>
+            <param name="name">The entity to join.</param>
+            <returns>number.</returns>
+        </member>
+        <member name="M:TicketingSystem.Repository.IMovieRepository.Modify(System.Int32,System.String)">
+            <summary>
+            Modify the entities.
+            </summary>
+            <param name="id">The id to join.</param>
+            <param name="language">The language to join.</param>
+        </member>
+        <member name="T:TicketingSystem.Repository.IRepository`1">
+            <summary>
+            Documentation that describes the interface goes here.
+            </summary>
+            <remarks>
+            Details about the interface go here.
+            </remarks>
+            <typeparam name="T">The first generic type parameter.</typeparam>
+        </member>
+        <member name="M:TicketingSystem.Repository.IRepository`1.GetOne(System.Int32)">
+            <summary>
+            Method for getting one by id.
+            </summary>
+            <param name="id">The id to join.</param>
+            <returns>Returns T generic type.</returns>
+        </member>
+        <member name="M:TicketingSystem.Repository.IRepository`1.GetAll">
+            <summary>
+            Method for getting all.
+            </summary>
+            <returns>Returns IQueryable of T.</returns>
+        </member>
+        <member name="M:TicketingSystem.Repository.IRepository`1.Insert(`0)">
+            <summary>
+            Method for inserting new entity.
+            </summary>
+            <param name="entity">The entity to join.</param>
+        </member>
+        <member name="M:TicketingSystem.Repository.IRepository`1.Remove(`0,System.Int32)">
+            <summary>
+            Method for removing entity by id.
+            </summary>
+            <param name="entity">The entity to join.</param>
+            <param name="id">The id to join.</param>
+            <returns>Returns true or false.</returns>
+        </member>
+        <member name="T:TicketingSystem.Repository.ITicketRepository">
+            <summary>
+            Documentation that describes the interface goes here.
+            </summary>
+            <remarks>
+            Details about the interface go here.
+            </remarks>
+        </member>
+        <member name="M:TicketingSystem.Repository.ITicketRepository.ChangeVenue(System.Int32,System.Int32)">
+            <summary>
+            Method for changing venue.
+            </summary>
+            <param name="id">The entity to join.</param>
+            <param name="newVenue">The id to join.</param>
+        </member>
+        <member name="M:TicketingSystem.Repository.ITicketRepository.Add(System.Int32)">
+            <summary>
+            Adding name.
+            </summary>
+            <param name="number">The entity to join.</param>
+            <returns>number.</returns>
+        </member>
+        <member name="M:TicketingSystem.Repository.ITicketRepository.Remove(System.Int32)">
+            <summary>
+            Removing name.
+            </summary>
+            <param name="number">The entity to join.</param>
+            <returns>number.</returns>
+        </member>
+        <member name="M:TicketingSystem.Repository.ITicketRepository.Modify(System.Int32,System.Int32)">
+            <summary>
+            Modify the entities.
+            </summary>
+            <param name="id">The id to join.</param>
+            <param name="venue">The venue to join.</param>
+        </member>
+        <member name="T:TicketingSystem.Repository.MovieRepository">
+            <summary>
+            This class MovieRepository.
+            </summary>
+        </member>
+        <member name="M:TicketingSystem.Repository.MovieRepository.#ctor(Microsoft.EntityFrameworkCore.DbContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:TicketingSystem.Repository.MovieRepository"/> class.
+            Constructor MovieRepository.
+            </summary>
+            <param name="ctx">The id to join.</param>
+        </member>
+        <member name="M:TicketingSystem.Repository.MovieRepository.Add(System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="M:TicketingSystem.Repository.MovieRepository.ChangeDate(System.Int32,System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="M:TicketingSystem.Repository.MovieRepository.GetOne(System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="M:TicketingSystem.Repository.MovieRepository.Modify(System.Int32,System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="M:TicketingSystem.Repository.MovieRepository.Remove(System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="T:TicketingSystem.Repository.RepositoryBase`1">
+            <summary>
+            This abstract class RepositoryBase wih generic type.
+            </summary> <typeparam name="T">The first generic type parameter.</typeparam>
+        </member>
+        <member name="M:TicketingSystem.Repository.RepositoryBase`1.#ctor(Microsoft.EntityFrameworkCore.DbContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:TicketingSystem.Repository.RepositoryBase`1"/> class.
+            The class constructor.
+            </summary>
+            <param name="ctx">The entity to join.</param>
+        </member>
+        <member name="P:TicketingSystem.Repository.RepositoryBase`1.Ctx">
+            <summary>
+            Gets or Sets DbContext field so the child can reach it.
+            </summary>
+        </member>
+        <member name="M:TicketingSystem.Repository.RepositoryBase`1.GetAll">
+            <summary>
+            Meethod for getting all.
+            </summary>
+            <returns>It returns IQueryable type.</returns>
+        </member>
+        <member name="M:TicketingSystem.Repository.RepositoryBase`1.GetOne(System.Int32)">
+            <summary>
+            Method for getting one.
+            </summary>
+            <param name="id">The entity to join.</param>
+            <returns>It returns T type.</returns>
+        </member>
+        <member name="M:TicketingSystem.Repository.RepositoryBase`1.Insert(`0)">
+            <summary>
+            Method for inserting.
+            </summary>
+            <param name="entity">The entity to join.</param>
+        </member>
+        <member name="M:TicketingSystem.Repository.RepositoryBase`1.Remove(`0,System.Int32)">
+            <summary>
+            Method for removing id by entity.
+            </summary>
+            <param name="entity">The entity to join.</param>
+            <param name="id">The id to join.</param>
+            <returns>Returns true or false.</returns>
+        </member>
+        <member name="T:TicketingSystem.Repository.TicketRepository">
+            <summary>
+            This class performs an important function.
+            </summary>
+        </member>
+        <member name="M:TicketingSystem.Repository.TicketRepository.#ctor(Microsoft.EntityFrameworkCore.DbContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:TicketingSystem.Repository.TicketRepository"/> class.
+            Constructor TicketRepository.
+            </summary>
+            <param name="ctx">The id to join.</param>
+            <returns>The joined names will be removed.</returns>
+        </member>
+        <member name="M:TicketingSystem.Repository.TicketRepository.Add(System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="M:TicketingSystem.Repository.TicketRepository.ChangeVenue(System.Int32,System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="M:TicketingSystem.Repository.TicketRepository.GetOne(System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="M:TicketingSystem.Repository.TicketRepository.Modify(System.Int32,System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="M:TicketingSystem.Repository.TicketRepository.Remove(System.Int32)">
+            <inheritdoc/>
+        </member>
+    </members>
+</doc>

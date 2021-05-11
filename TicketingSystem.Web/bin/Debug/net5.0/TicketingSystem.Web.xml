@@ -1,0 +1,185 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TicketingSystem.Web</name>
+    </assembly>
+    <members>
+        <member name="T:TicketingSystem.Web.Controllers.CashiersController">
+            <summary>
+            This class CashiersController.
+            </summary>
+        </member>
+        <member name="M:TicketingSystem.Web.Controllers.CashiersController.#ctor(TicketingSystem.Logic.ICashierLogic,AutoMapper.IMapper)">
+            <summary>
+            Initializes a new instance of the <see cref="T:TicketingSystem.Web.Controllers.CashiersController"/> class.
+            </summary>
+            <param name="logic">The logic of CashiersController.</param>
+            <param name="mapper">The mapper of CashiersController.</param>
+        </member>
+        <member name="M:TicketingSystem.Web.Controllers.CashiersController.Index">
+            <summary>
+            Collection of cashier method.
+            </summary>
+            <returns>Returns IActionResult  .</returns>
+        </member>
+        <member name="M:TicketingSystem.Web.Controllers.CashiersController.Details(System.Int32)">
+            <summary>
+            Details method.
+            </summary>
+            <param name="id">The id is to join.</param>
+            <returns>Returns IActionResult .</returns>
+        </member>
+        <member name="M:TicketingSystem.Web.Controllers.CashiersController.Remove(System.Int32)">
+            <summary>
+            Remove method.
+            </summary>
+            <param name="id">The id is to join.</param>
+            <returns>Returns IActionResult .</returns>
+        </member>
+        <member name="M:TicketingSystem.Web.Controllers.CashiersController.Edit(System.Int32)">
+            <summary>
+            Edit method.
+            </summary>
+            <param name="id">The id is to join.</param>
+            <returns>Returns IActionResult .</returns>
+        </member>
+        <member name="M:TicketingSystem.Web.Controllers.CashiersController.Edit(TicketingSystem.Web.Models.Cashier,System.String)">
+            <summary>
+            Edit method.
+            </summary>
+            <param name="cashier">The cashier is to join.</param>
+            <param name="editAction">The editAction is to join.</param>
+            <returns>Returns IActionResult .</returns>
+        </member>
+        <member name="T:TicketingSystem.Web.Controllers.HomeController">
+            <summary>
+            This class  HomeController.
+            </summary>
+        </member>
+        <member name="M:TicketingSystem.Web.Controllers.HomeController.#ctor(Microsoft.Extensions.Logging.ILogger{TicketingSystem.Web.Controllers.HomeController})">
+            <summary>
+            Initializes a new instance of the <see cref="T:TicketingSystem.Web.Controllers.HomeController"/> class.
+            </summary>
+            <param name="logger">The logger is to join.</param>
+        </member>
+        <member name="M:TicketingSystem.Web.Controllers.HomeController.Index">
+            <summary>
+            Index method.
+            </summary>
+            <returns>Returns IActionResult .</returns>
+        </member>
+        <member name="M:TicketingSystem.Web.Controllers.HomeController.Privacy">
+            <summary>
+            Privacy method.
+            </summary>
+            <returns>Returns IActionResult .</returns>
+        </member>
+        <member name="M:TicketingSystem.Web.Controllers.HomeController.Error">
+            <summary>
+            Error method.
+            </summary>
+            <returns>Returns IActionResult .</returns>
+        </member>
+        <member name="T:TicketingSystem.Web.Models.Cashier">
+            <summary>
+            This class cashiers.
+            </summary>
+        </member>
+        <member name="P:TicketingSystem.Web.Models.Cashier.Id">
+            <summary>Gets or sets the id of cashier.</summary>
+        </member>
+        <member name="P:TicketingSystem.Web.Models.Cashier.Name">
+            <summary>Gets or sets the name.</summary>
+        </member>
+        <member name="P:TicketingSystem.Web.Models.Cashier.Address">
+            <summary>Gets or sets the Address.</summary>
+        </member>
+        <member name="P:TicketingSystem.Web.Models.Cashier.BankAccount">
+            <summary>Gets or sets the BankAccount.</summary>
+        </member>
+        <member name="P:TicketingSystem.Web.Models.Cashier.Salary">
+            <summary>Gets or sets the salary.</summary>
+        </member>
+        <member name="P:TicketingSystem.Web.Models.Cashier.Insurance">
+            <summary>Gets or sets the insurance.</summary>
+        </member>
+        <member name="T:TicketingSystem.Web.Models.CashierListViewModel">
+            <summary>
+            This class CashierListViewModel.
+            </summary>
+        </member>
+        <member name="P:TicketingSystem.Web.Models.CashierListViewModel.EditedCashier">
+            <summary>Gets or sets the edited cashier.</summary>
+        </member>
+        <member name="P:TicketingSystem.Web.Models.CashierListViewModel.ListOfCashiers">
+            <summary>Gets or sets the list of cashiers.</summary>
+        </member>
+        <member name="T:TicketingSystem.Web.Models.ErrorViewModel">
+            <summary>
+            This class cashierLogic.
+            </summary>
+        </member>
+        <member name="P:TicketingSystem.Web.Models.ErrorViewModel.RequestId">
+            <summary>Gets or sets the id of Request.</summary>
+        </member>
+        <member name="P:TicketingSystem.Web.Models.ErrorViewModel.ShowRequestId">
+            <summary>Gets a value  indicating whether.</summary>
+        </member>
+        <member name="T:TicketingSystem.Web.Models.MapperFactory">
+            <summary>
+            This class MapperFactory.
+            </summary>
+        </member>
+        <member name="M:TicketingSystem.Web.Models.MapperFactory.CreateMapper">
+            <summary>
+            Imapper method.
+            </summary>
+            <returns>Returns IMapper .</returns>
+        </member>
+        <member name="T:TicketingSystem.Web.Program">
+            <summary>
+            This class Program.
+            </summary>
+        </member>
+        <member name="M:TicketingSystem.Web.Program.Main(System.String[])">
+            <summary>
+            Main method.
+            </summary>
+            <param name="args">The args is to join.</param>
+        </member>
+        <member name="M:TicketingSystem.Web.Program.CreateHostBuilder(System.String[])">
+            <summary>
+            CreateHostBuilder method.
+            </summary>
+            <param name="args">The args is to join.</param>
+            <returns>Returns IHostBuilder .</returns>
+        </member>
+        <member name="T:TicketingSystem.Web.Startup">
+            <summary>
+            This class Startup.
+            </summary>
+        </member>
+        <member name="M:TicketingSystem.Web.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Initializes a new instance of the <see cref="T:TicketingSystem.Web.Startup"/> class.
+            </summary>
+            <param name="configuration">The configuration is to join.</param>
+        </member>
+        <member name="P:TicketingSystem.Web.Startup.Configuration">
+            <summary>Gets a value of the Address.</summary>
+        </member>
+        <member name="M:TicketingSystem.Web.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            ConfigureServices method.
+            </summary>
+            <param name="services">The services is to join.</param>
+        </member>
+        <member name="M:TicketingSystem.Web.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            ConfigureServices method.
+            </summary>
+            <param name="app">The application is to join.</param>
+            <param name="env">The environment is to join.</param>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TicketingSystem.WPF</name>
+    </assembly>
+    <members>
+        <member name="T:TicketingSystem.WPF.App">
+            <summary>
+            Interaction logic for App.xaml.
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:TicketingSystem.WPF.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:TicketingSystem.WPF.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="T:TicketingSystem.WPF.MainWindow">
+            <summary>
+            Interaction logic for MainWindow.xaml.
+            </summary>
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="M:TicketingSystem.WPF.MainWindow.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:TicketingSystem.WPF.MainWindow"/> class.
+            </summary>
+        </member>
+        <member name="M:TicketingSystem.WPF.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,272 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TicketingSystem.WPF</name>
+    </assembly>
+    <members>
+        <member name="T:TicketingSystem.WPF.App">
+            <summary>
+            Interaction logic for App.xaml.
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:TicketingSystem.WPF.App.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:TicketingSystem.WPF.App"/> class.
+            </summary>
+        </member>
+        <member name="M:TicketingSystem.WPF.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:TicketingSystem.WPF.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="T:TicketingSystem.WPF.BL.CashierLogic2">
+            <summary>CashierLogic class. </summary>
+        </member>
+        <member name="M:TicketingSystem.WPF.BL.CashierLogic2.#ctor(TicketingSystem.WPF.BL.IEditorService,GalaSoft.MvvmLight.Messaging.IMessenger,TicketingSystem.WPF.BL.Workers)">
+            <summary>
+            Initializes a new instance of the <see cref="T:TicketingSystem.WPF.BL.CashierLogic2"/> class.
+            The class constructor.
+            </summary>
+            <param name="service">The interface to join.</param>
+            <param name="messenger">The id to join.</param>
+            <param name="cashiers">The parameter is Cashiers object.</param>
+        </member>
+        <member name="M:TicketingSystem.WPF.BL.CashierLogic2.AddCashier(System.Collections.Generic.IList{TicketingSystem.WPF.Data.CashierModel})">
+            <summary>
+            Method for getting one cashier.
+            </summary>
+            <param name="list">The id to join.</param>
+        </member>
+        <member name="M:TicketingSystem.WPF.BL.CashierLogic2.DelCashier(System.Collections.Generic.IList{TicketingSystem.WPF.Data.CashierModel},TicketingSystem.WPF.Data.CashierModel)">
+            <summary>
+            Joins a first name and a last name together into a single string.
+            </summary>
+            <param name="list">Part of the name.</param>
+            <param name="cashier">Cashier.</param>
+        </member>
+        <member name="M:TicketingSystem.WPF.BL.CashierLogic2.GetAllCashiers">
+            <summary>
+            This is GetAllCashiers() method.
+            </summary>
+            <returns> Returns IList of CashierModel.</returns>
+        </member>
+        <member name="M:TicketingSystem.WPF.BL.CashierLogic2.ModCashier(TicketingSystem.WPF.Data.CashierModel)">
+            <summary>
+            Method for getting one cashier.
+            </summary>
+            <param name="cashierToModify">The id to join.</param>
+        </member>
+        <member name="T:TicketingSystem.WPF.BL.ICashierLogic">
+            <summary>
+            Documentation that describes the interface goes here.
+            </summary>
+        </member>
+        <member name="M:TicketingSystem.WPF.BL.ICashierLogic.AddCashier(System.Collections.Generic.IList{TicketingSystem.WPF.Data.CashierModel})">
+            <summary>
+            Method for increasing salary.
+            </summary>
+            <param name="list">The id to join.</param>
+        </member>
+        <member name="M:TicketingSystem.WPF.BL.ICashierLogic.ModCashier(TicketingSystem.WPF.Data.CashierModel)">
+            <summary>
+            Method for increasing salary.
+            </summary>
+            <param name="cashierToModify">The id to join.</param>
+        </member>
+        <member name="M:TicketingSystem.WPF.BL.ICashierLogic.DelCashier(System.Collections.Generic.IList{TicketingSystem.WPF.Data.CashierModel},TicketingSystem.WPF.Data.CashierModel)">
+            <summary>
+            Method for increasing salary.
+            </summary>
+            <param name="list">The id to join.</param>
+            <param name="cashier">The salary to join.</param>
+        </member>
+        <member name="M:TicketingSystem.WPF.BL.ICashierLogic.GetAllCashiers">
+            <summary>
+            Method for increasing salary.
+            </summary>
+            <returns>Returns IList of CashierModel.</returns>
+        </member>
+        <member name="T:TicketingSystem.WPF.BL.IEditorService">
+            <summary>
+            Documentation that describes the interface goes here.
+            </summary>
+        </member>
+        <member name="M:TicketingSystem.WPF.BL.IEditorService.EditCashier(TicketingSystem.WPF.Data.CashierModel)">
+            <summary>
+            Method for getting one cashier.
+            </summary>
+            <param name="cashier">The id to join.</param>
+            <returns>returns cashier.</returns>
+        </member>
+        <member name="T:TicketingSystem.WPF.BL.Workers">
+            <summary>
+            class of Cashiers.
+            </summary>
+        </member>
+        <member name="M:TicketingSystem.WPF.BL.Workers.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:TicketingSystem.WPF.BL.Workers"/> class.
+            </summary>
+        </member>
+        <member name="P:TicketingSystem.WPF.BL.Workers.CashierLogic">
+            <summary>
+            Gets the CashierLogic.
+            </summary>
+        </member>
+        <member name="T:TicketingSystem.WPF.Data.CashierModel">
+            <summary>Cashier class. </summary>
+        </member>
+        <member name="P:TicketingSystem.WPF.Data.CashierModel.Id">
+            <summary>Gets or sets sets the cashier name.</summary>
+        </member>
+        <member name="P:TicketingSystem.WPF.Data.CashierModel.Name">
+            <summary>Gets or sets the cashier name.</summary>
+        </member>
+        <member name="P:TicketingSystem.WPF.Data.CashierModel.Address">
+            <summary>Gets or sets the cashier name.</summary>
+        </member>
+        <member name="P:TicketingSystem.WPF.Data.CashierModel.CardType">
+            <summary>Gets or sets the cashier name.</summary>
+        </member>
+        <member name="P:TicketingSystem.WPF.Data.CashierModel.Insurance">
+            <summary>Gets or sets the cashier name.</summary>
+        </member>
+        <member name="P:TicketingSystem.WPF.Data.CashierModel.Salary">
+            <summary>Gets or sets the cashier name.</summary>
+        </member>
+        <member name="M:TicketingSystem.WPF.Data.CashierModel.CopyFrom(TicketingSystem.WPF.Data.CashierModel)">
+            <summary>
+            Method for increasing salary.
+            </summary>
+            <param name="other">The id to join.</param>
+        </member>
+        <member name="M:TicketingSystem.WPF.Data.CashierModel.ToString">
+            <summary>
+            Method for increasing salary.
+            </summary>
+            <returns>Returns string.</returns>
+        </member>
+        <member name="T:TicketingSystem.WPF.EditorWindow">
+            <summary>
+            Interaction logic for EditorWindow.xaml.
+            </summary>
+            <summary>
+            EditorWindow
+            </summary>
+        </member>
+        <member name="M:TicketingSystem.WPF.EditorWindow.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:TicketingSystem.WPF.EditorWindow"/> class.
+            </summary>
+        </member>
+        <member name="M:TicketingSystem.WPF.EditorWindow.#ctor(TicketingSystem.WPF.Data.CashierModel)">
+            <summary>
+            Initializes a new instance of the <see cref="T:TicketingSystem.WPF.EditorWindow"/> class.
+            </summary>
+            <param name="oldCashier">NewCashier.</param>
+        </member>
+        <member name="P:TicketingSystem.WPF.EditorWindow.Cashier">
+            <summary>Gets the cashier.</summary>
+        </member>
+        <member name="M:TicketingSystem.WPF.EditorWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:TicketingSystem.WPF.MainWindow">
+            <summary>
+            Interaction logic for MainWindow.xaml.
+            </summary>
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="M:TicketingSystem.WPF.MainWindow.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:TicketingSystem.WPF.MainWindow"/> class.
+            </summary>
+        </member>
+        <member name="M:TicketingSystem.WPF.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:TicketingSystem.WPF.MyIoc">
+            <summary>Cashier MyIoc. </summary>
+        </member>
+        <member name="P:TicketingSystem.WPF.MyIoc.Instance">
+            <summary>Gets the instances.</summary>
+        </member>
+        <member name="T:TicketingSystem.WPF.UI.CardTypeToBrushConverter">
+            <summary>
+            This class .
+            </summary>
+        </member>
+        <member name="M:TicketingSystem.WPF.UI.CardTypeToBrushConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <inheritdoc/>
+        </member>
+        <member name="M:TicketingSystem.WPF.UI.CardTypeToBrushConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <inheritdoc/>
+        </member>
+        <member name="T:TicketingSystem.WPF.UI.EditorServiceViaWindow">
+            <summary>
+            This is the EditorServiceViaWindow class.
+            </summary>
+        </member>
+        <member name="M:TicketingSystem.WPF.UI.EditorServiceViaWindow.EditCashier(TicketingSystem.WPF.Data.CashierModel)">
+            <summary>
+            Method that checks the editing cashier.
+            </summary>
+            <param name="cashier">The id to join.</param>
+            <returns>returns bool.</returns>
+        </member>
+        <member name="T:TicketingSystem.WPF.VM.EditorViewModel">
+            <summary> CashierLogic class. </summary>
+        </member>
+        <member name="M:TicketingSystem.WPF.VM.EditorViewModel.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:TicketingSystem.WPF.VM.EditorViewModel"/> class.
+            </summary>
+        </member>
+        <member name="P:TicketingSystem.WPF.VM.EditorViewModel.Cashier">
+            <summary>Gets or sets the cashier.</summary>
+        </member>
+        <member name="T:TicketingSystem.WPF.VM.MainViewModel">
+            <summary>CashierLogic class.</summary>
+        </member>
+        <member name="M:TicketingSystem.WPF.VM.MainViewModel.#ctor(TicketingSystem.WPF.BL.ICashierLogic)">
+            <summary>
+            Initializes a new instance of the <see cref="T:TicketingSystem.WPF.VM.MainViewModel"/> class.
+            </summary>
+            <param name="logic">This is parameter.</param>
+        </member>
+        <member name="M:TicketingSystem.WPF.VM.MainViewModel.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:TicketingSystem.WPF.VM.MainViewModel"/> class.
+            </summary>
+        </member>
+        <member name="P:TicketingSystem.WPF.VM.MainViewModel.CashierSelected">
+            <summary>Gets or sets the cashierSelected.</summary>
+        </member>
+        <member name="P:TicketingSystem.WPF.VM.MainViewModel.GroupOfCashier">
+            <summary>Gets the group of cashier.</summary>
+        </member>
+        <member name="P:TicketingSystem.WPF.VM.MainViewModel.AddCmd">
+            <summary>Gets the Add command.</summary>
+        </member>
+        <member name="P:TicketingSystem.WPF.VM.MainViewModel.ModCmd">
+            <summary>Gets Modify command.</summary>
+        </member>
+        <member name="P:TicketingSystem.WPF.VM.MainViewModel.DelCmd">
+            <summary>Gets the Delete command.</summary>
+        </member>
+    </members>
+</doc>

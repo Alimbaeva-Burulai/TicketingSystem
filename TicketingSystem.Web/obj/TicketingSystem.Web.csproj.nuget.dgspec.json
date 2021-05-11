@@ -1,0 +1,338 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\User\\OneDrive - Óbudai egyetem\\Documents\\oenik_prog4hf_2021_1_f8skrv\\TicketingSystem\\TicketingSystem.Web\\TicketingSystem.Web.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\User\\OneDrive - Óbudai egyetem\\Documents\\oenik_prog4hf_2021_1_f8skrv\\TicketingSystem\\TicketingSystem.Data\\TicketingSystem.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\User\\OneDrive - Óbudai egyetem\\Documents\\oenik_prog4hf_2021_1_f8skrv\\TicketingSystem\\TicketingSystem.Data\\TicketingSystem.Data.csproj",
+        "projectName": "TicketingSystem.Data",
+        "projectPath": "C:\\Users\\User\\OneDrive - Óbudai egyetem\\Documents\\oenik_prog4hf_2021_1_f8skrv\\TicketingSystem\\TicketingSystem.Data\\TicketingSystem.Data.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\OneDrive - Óbudai egyetem\\Documents\\oenik_prog4hf_2021_1_f8skrv\\TicketingSystem\\TicketingSystem.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\User\\OneDrive - Óbudai egyetem\\Documents\\oenik_prog4hf_2021_1_f8skrv\\TicketingSystem\\TicketingSystem.Logic\\TicketingSystem.Logic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\User\\OneDrive - Óbudai egyetem\\Documents\\oenik_prog4hf_2021_1_f8skrv\\TicketingSystem\\TicketingSystem.Logic\\TicketingSystem.Logic.csproj",
+        "projectName": "TicketingSystem.Logic",
+        "projectPath": "C:\\Users\\User\\OneDrive - Óbudai egyetem\\Documents\\oenik_prog4hf_2021_1_f8skrv\\TicketingSystem\\TicketingSystem.Logic\\TicketingSystem.Logic.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\OneDrive - Óbudai egyetem\\Documents\\oenik_prog4hf_2021_1_f8skrv\\TicketingSystem\\TicketingSystem.Logic\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\User\\OneDrive - Óbudai egyetem\\Documents\\oenik_prog4hf_2021_1_f8skrv\\TicketingSystem\\TicketingSystem.Data\\TicketingSystem.Data.csproj": {
+                "projectPath": "C:\\Users\\User\\OneDrive - Óbudai egyetem\\Documents\\oenik_prog4hf_2021_1_f8skrv\\TicketingSystem\\TicketingSystem.Data\\TicketingSystem.Data.csproj"
+              },
+              "C:\\Users\\User\\OneDrive - Óbudai egyetem\\Documents\\oenik_prog4hf_2021_1_f8skrv\\TicketingSystem\\TicketingSystem.Repository\\TicketingSystem.Repository.csproj": {
+                "projectPath": "C:\\Users\\User\\OneDrive - Óbudai egyetem\\Documents\\oenik_prog4hf_2021_1_f8skrv\\TicketingSystem\\TicketingSystem.Repository\\TicketingSystem.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\User\\OneDrive - Óbudai egyetem\\Documents\\oenik_prog4hf_2021_1_f8skrv\\TicketingSystem\\TicketingSystem.Repository\\TicketingSystem.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\User\\OneDrive - Óbudai egyetem\\Documents\\oenik_prog4hf_2021_1_f8skrv\\TicketingSystem\\TicketingSystem.Repository\\TicketingSystem.Repository.csproj",
+        "projectName": "TicketingSystem.Repository",
+        "projectPath": "C:\\Users\\User\\OneDrive - Óbudai egyetem\\Documents\\oenik_prog4hf_2021_1_f8skrv\\TicketingSystem\\TicketingSystem.Repository\\TicketingSystem.Repository.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\OneDrive - Óbudai egyetem\\Documents\\oenik_prog4hf_2021_1_f8skrv\\TicketingSystem\\TicketingSystem.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\User\\OneDrive - Óbudai egyetem\\Documents\\oenik_prog4hf_2021_1_f8skrv\\TicketingSystem\\TicketingSystem.Data\\TicketingSystem.Data.csproj": {
+                "projectPath": "C:\\Users\\User\\OneDrive - Óbudai egyetem\\Documents\\oenik_prog4hf_2021_1_f8skrv\\TicketingSystem\\TicketingSystem.Data\\TicketingSystem.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\User\\OneDrive - Óbudai egyetem\\Documents\\oenik_prog4hf_2021_1_f8skrv\\TicketingSystem\\TicketingSystem.Web\\TicketingSystem.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\User\\OneDrive - Óbudai egyetem\\Documents\\oenik_prog4hf_2021_1_f8skrv\\TicketingSystem\\TicketingSystem.Web\\TicketingSystem.Web.csproj",
+        "projectName": "TicketingSystem.Web",
+        "projectPath": "C:\\Users\\User\\OneDrive - Óbudai egyetem\\Documents\\oenik_prog4hf_2021_1_f8skrv\\TicketingSystem\\TicketingSystem.Web\\TicketingSystem.Web.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\OneDrive - Óbudai egyetem\\Documents\\oenik_prog4hf_2021_1_f8skrv\\TicketingSystem\\TicketingSystem.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\User\\OneDrive - Óbudai egyetem\\Documents\\oenik_prog4hf_2021_1_f8skrv\\TicketingSystem\\TicketingSystem.Data\\TicketingSystem.Data.csproj": {
+                "projectPath": "C:\\Users\\User\\OneDrive - Óbudai egyetem\\Documents\\oenik_prog4hf_2021_1_f8skrv\\TicketingSystem\\TicketingSystem.Data\\TicketingSystem.Data.csproj"
+              },
+              "C:\\Users\\User\\OneDrive - Óbudai egyetem\\Documents\\oenik_prog4hf_2021_1_f8skrv\\TicketingSystem\\TicketingSystem.Logic\\TicketingSystem.Logic.csproj": {
+                "projectPath": "C:\\Users\\User\\OneDrive - Óbudai egyetem\\Documents\\oenik_prog4hf_2021_1_f8skrv\\TicketingSystem\\TicketingSystem.Logic\\TicketingSystem.Logic.csproj"
+              },
+              "C:\\Users\\User\\OneDrive - Óbudai egyetem\\Documents\\oenik_prog4hf_2021_1_f8skrv\\TicketingSystem\\TicketingSystem.Repository\\TicketingSystem.Repository.csproj": {
+                "projectPath": "C:\\Users\\User\\OneDrive - Óbudai egyetem\\Documents\\oenik_prog4hf_2021_1_f8skrv\\TicketingSystem\\TicketingSystem.Repository\\TicketingSystem.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

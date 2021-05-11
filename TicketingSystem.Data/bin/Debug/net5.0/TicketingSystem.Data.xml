@@ -1,0 +1,197 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TicketingSystem.Data</name>
+    </assembly>
+    <members>
+        <member name="T:TicketingSystem.Data.CodeFirstDB.BookingTicket">
+            <summary> bookingticket class. </summary>
+        </member>
+        <member name="P:TicketingSystem.Data.CodeFirstDB.BookingTicket.TicketId">
+            <summary>Gets or sets the id.</summary>
+        </member>
+        <member name="P:TicketingSystem.Data.CodeFirstDB.BookingTicket.DateTime">
+            <summary>Gets or sets the datetime.</summary>
+        </member>
+        <member name="P:TicketingSystem.Data.CodeFirstDB.BookingTicket.TicketVenue">
+            <summary>Gets or sets the ticketvenue.</summary>
+        </member>
+        <member name="P:TicketingSystem.Data.CodeFirstDB.BookingTicket.TicketNumber">
+            <summary>Gets or sets the ticketnumber.</summary>
+        </member>
+        <member name="P:TicketingSystem.Data.CodeFirstDB.BookingTicket.CustomerId">
+            <summary>Gets or sets the id of customer.</summary>
+        </member>
+        <member name="P:TicketingSystem.Data.CodeFirstDB.BookingTicket.CashierId">
+            <summary>Gets or sets the id of cashier.</summary>
+        </member>
+        <member name="P:TicketingSystem.Data.CodeFirstDB.BookingTicket.MovieId">
+            <summary>Gets or sets the id of movie.</summary>
+        </member>
+        <member name="P:TicketingSystem.Data.CodeFirstDB.BookingTicket.Customer">
+            <summary>Gets or sets the customer.</summary>
+        </member>
+        <member name="P:TicketingSystem.Data.CodeFirstDB.BookingTicket.Cashier">
+            <summary>Gets or sets the cashier.</summary>
+        </member>
+        <member name="P:TicketingSystem.Data.CodeFirstDB.BookingTicket.Movie">
+            <summary>Gets or sets the movie.</summary>
+        </member>
+        <member name="T:TicketingSystem.Data.CodeFirstDB.Cashier">
+            <summary>Cashier class. </summary>
+        </member>
+        <member name="P:TicketingSystem.Data.CodeFirstDB.Cashier.CashierId">
+            <summary>Gets or sets the id of cashier.</summary>
+        </member>
+        <member name="P:TicketingSystem.Data.CodeFirstDB.Cashier.CashierName">
+            <summary>Gets or sets the cashier name.</summary>
+        </member>
+        <member name="P:TicketingSystem.Data.CodeFirstDB.Cashier.Address">
+            <summary>Gets or sets the address.</summary>
+        </member>
+        <member name="P:TicketingSystem.Data.CodeFirstDB.Cashier.BankAccount">
+            <summary>Gets or sets the bancaccount.</summary>
+        </member>
+        <member name="P:TicketingSystem.Data.CodeFirstDB.Cashier.Insurance">
+            <summary>Gets or sets the insurance.</summary>
+        </member>
+        <member name="P:TicketingSystem.Data.CodeFirstDB.Cashier.Salary">
+            <summary>Gets or sets the salary.</summary>
+        </member>
+        <member name="P:TicketingSystem.Data.CodeFirstDB.Cashier.Tickets">
+            <summary>Gets  the collection of tickets.</summary>
+        </member>
+        <member name="P:TicketingSystem.Data.CodeFirstDB.Cashier.Connections">
+            <summary>Gets the collection of connections.</summary>
+        </member>
+        <member name="M:TicketingSystem.Data.CodeFirstDB.Cashier.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:TicketingSystem.Data.CodeFirstDB.Cashier"/> class.
+            The class constructor.
+            </summary>
+        </member>
+        <member name="M:TicketingSystem.Data.CodeFirstDB.Cashier.ToString">
+            <inheritdoc/>
+        </member>
+        <member name="T:TicketingSystem.Data.CodeFirstDB.ConnCashierCustomer">
+            <summary>Represents a mutable string of characters. </summary>
+        </member>
+        <member name="P:TicketingSystem.Data.CodeFirstDB.ConnCashierCustomer.ConnId">
+            <summary> Gets or sets the connid.</summary>
+        </member>
+        <member name="P:TicketingSystem.Data.CodeFirstDB.ConnCashierCustomer.CustomerId">
+            <summary>Gets or sets the id of customer.</summary>
+        </member>
+        <member name="P:TicketingSystem.Data.CodeFirstDB.ConnCashierCustomer.CashierId">
+            <summary>Gets or sets the id of cashier.</summary>
+        </member>
+        <member name="P:TicketingSystem.Data.CodeFirstDB.ConnCashierCustomer.Customer">
+            <summary>Gets or sets the customer.</summary>
+        </member>
+        <member name="P:TicketingSystem.Data.CodeFirstDB.ConnCashierCustomer.Cashier">
+            <summary>Gets or sets the cashier.</summary>
+        </member>
+        <member name="T:TicketingSystem.Data.CodeFirstDB.Customer">
+            <summary>Customer class. </summary>
+        </member>
+        <member name="P:TicketingSystem.Data.CodeFirstDB.Customer.CustomerID">
+            <summary>Gets or sets the customer.</summary>
+        </member>
+        <member name="P:TicketingSystem.Data.CodeFirstDB.Customer.Name">
+            <summary>Gets or sets the name of customer.</summary>
+        </member>
+        <member name="P:TicketingSystem.Data.CodeFirstDB.Customer.Mobile">
+            <summary>Gets or sets the mobile.</summary>
+        </member>
+        <member name="P:TicketingSystem.Data.CodeFirstDB.Customer.Age">
+            <summary>Gets or sets the age.</summary>
+        </member>
+        <member name="P:TicketingSystem.Data.CodeFirstDB.Customer.Address">
+            <summary>Gets or sets the address.</summary>
+        </member>
+        <member name="P:TicketingSystem.Data.CodeFirstDB.Customer.PriceOfTicket">
+            <summary>Gets or sets the price of ticket.</summary>
+        </member>
+        <member name="P:TicketingSystem.Data.CodeFirstDB.Customer.Tickets">
+            <summary>Gets the collection of tickets.</summary>
+        </member>
+        <member name="P:TicketingSystem.Data.CodeFirstDB.Customer.Connections">
+            <summary>Gets the collection of connections.</summary>
+        </member>
+        <member name="M:TicketingSystem.Data.CodeFirstDB.Customer.#ctor">
+            <summary>Initializes a new instance of the <see cref="T:TicketingSystem.Data.CodeFirstDB.Customer"/> class.</summary>
+        </member>
+        <member name="T:TicketingSystem.Data.CodeFirstDB.Movie">
+            <summary> Movie class.. </summary>
+        </member>
+        <member name="P:TicketingSystem.Data.CodeFirstDB.Movie.MovieId">
+            <summary>Gets or sets the movie.</summary>
+        </member>
+        <member name="P:TicketingSystem.Data.CodeFirstDB.Movie.MovieName">
+            <summary>Gets or sets the name of movie.</summary>
+        </member>
+        <member name="P:TicketingSystem.Data.CodeFirstDB.Movie.Language">
+            <summary>Gets or sets the language.</summary>
+        </member>
+        <member name="P:TicketingSystem.Data.CodeFirstDB.Movie.Minute">
+            <summary>Gets or sets the minute.</summary>
+        </member>
+        <member name="P:TicketingSystem.Data.CodeFirstDB.Movie.Type">
+            <summary>Gets or sets the type.</summary>
+        </member>
+        <member name="P:TicketingSystem.Data.CodeFirstDB.Movie.Date">
+            <summary>Gets or sets the date.</summary>
+        </member>
+        <member name="P:TicketingSystem.Data.CodeFirstDB.Movie.Tickets">
+            <summary>Gets the collection of tickets.</summary>
+        </member>
+        <member name="M:TicketingSystem.Data.CodeFirstDB.Movie.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:TicketingSystem.Data.CodeFirstDB.Movie"/> class.
+            The class constructor.
+            </summary>
+        </member>
+        <member name="T:TicketingSystem.Data.CodeFirstDB.TicketContext">
+            <summary>
+            Database entities.
+            </summary>
+        </member>
+        <member name="P:TicketingSystem.Data.CodeFirstDB.TicketContext.Cashiers">
+            <summary>Gets or sets the database set of cashier.</summary>
+        </member>
+        <member name="P:TicketingSystem.Data.CodeFirstDB.TicketContext.Movies">
+            <summary>Gets or sets the database set of movies.</summary>
+        </member>
+        <member name="P:TicketingSystem.Data.CodeFirstDB.TicketContext.Customers">
+            <summary>Gets or sets the database set of customers.</summary>
+        </member>
+        <member name="P:TicketingSystem.Data.CodeFirstDB.TicketContext.Tickets">
+            <summary>Gets or sets the database set of tickets.</summary>
+        </member>
+        <member name="P:TicketingSystem.Data.CodeFirstDB.TicketContext.Connections">
+            <summary>Gets or sets the database set of connections.</summary>
+        </member>
+        <member name="M:TicketingSystem.Data.CodeFirstDB.TicketContext.#ctor">
+            <summary>Initializes a new instance of the <see cref="T:TicketingSystem.Data.CodeFirstDB.TicketContext"/> class.</summary>
+        </member>
+        <member name="M:TicketingSystem.Data.CodeFirstDB.TicketContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{TicketingSystem.Data.CodeFirstDB.TicketContext})">
+            <summary>
+            Initializes a new instance of the <see cref="T:TicketingSystem.Data.CodeFirstDB.TicketContext"/> class.
+            Configuring on sql server.
+            </summary>
+            <param name="options">The id to join.</param>
+        </member>
+        <member name="M:TicketingSystem.Data.CodeFirstDB.TicketContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)">
+            <summary>
+            Configuring on sql server.
+            </summary>
+            <param name="optionsBuilder">The id to join.</param>
+        </member>
+        <member name="M:TicketingSystem.Data.CodeFirstDB.TicketContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <summary>
+            Filling the database with records.
+            </summary>
+            <param name="modelBuilder">The id to join.</param>
+        </member>
+    </members>
+</doc>

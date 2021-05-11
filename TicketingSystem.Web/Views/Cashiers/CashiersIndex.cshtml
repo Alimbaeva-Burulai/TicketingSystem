@@ -1,0 +1,13 @@
+﻿@model TicketingSystem.Web.Models.CashierListViewModel
+
+@{
+    ViewData["Title"] = "CashiersIndex";
+}
+
+<h2>Cashiers Index</h2>
+
+<p style="color:red">@TempData["editResult"]</p>
+
+@await Html.PartialAsync("CashiersEdit", Model.EditedCashier)
+
+@await Html.PartialAsync("CashiersList", Model.ListOfCashiers)

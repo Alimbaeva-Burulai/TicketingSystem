@@ -1,0 +1,31 @@
+﻿@model TicketingSystem.Web.Models.Cashier
+
+<h2>CashierEdit</h2>
+
+@using (Html.BeginForm("Edit", "Cashiers"))
+{
+    @Html.ValidationSummary()
+
+    @Html.AntiForgeryToken()
+
+    @Html.HiddenFor(m => m.Id)
+
+    @Html.Hidden("editAction", ViewData["editAction"].ToString());
+
+    <div class="editor-label">@Html.LabelFor(m => m.Name)</div>
+    <div class="editor-field">@Html.EditorFor(m => m.Name)</div>
+
+    <div class="editor-label">@Html.LabelFor(m => m.Address)</div>
+    <div class="editor-field">@Html.EditorFor(m => m.Address)</div>
+
+    <div class="editor-label">@Html.LabelFor(m => m.BankAccount)</div>
+    <div class="editor-field">@Html.EditorFor(m => m.BankAccount)</div>
+
+    <div class="editor-label">@Html.LabelFor(m => m.Salary)</div>
+    <div class="editor-field">@Html.EditorFor(m => m.Salary)</div>
+
+    <div class="editor-label">@Html.LabelFor(m => m.Insurance)</div>
+    <div class="editor-field">@Html.EditorFor(m => m.Insurance)</div>
+
+    <input type="submit" value="SEND"/>
+}
